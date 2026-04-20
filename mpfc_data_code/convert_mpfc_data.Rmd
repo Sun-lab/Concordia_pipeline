@@ -1,0 +1,169 @@
+---
+title: "Visualize and Convert STARmap mpfc Data"
+author: "Si Liu"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: journal
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+    number_sections: false
+    code_folding: hide
+    df_print: paged
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load library
+```{r load_libraries, warning = FALSE, message = FALSE}
+library(data.table)
+library(ggplot2)
+library(ggpubr)
+library(ggpointdensity)
+theme_set(theme_classic())
+
+library(stringr)
+```
+
+
+# Data summary
+
+```{r}
+
+data_dir = "../data/mpfc_data"
+load(file.path(data_dir, "starmap_mpfc.RData"))
+
+length(starmap_cnts)
+names(starmap_cnts)
+
+dim(starmap_cnts$`20180417_BZ5_control`)
+dim(starmap_cnts$`20180419_BZ9_control`)
+dim(starmap_cnts$`20180424_BZ14_control`)
+
+starmap_cnts$`20180417_BZ5_control`[1:6, 1:3]
+starmap_cnts$`20180419_BZ9_control`[1:6, 1:3]
+starmap_cnts$`20180424_BZ14_control`[1:6, 1:3]
+
+
+length(starmap_info)
+names(starmap_info)
+
+dim(starmap_info$`20180417_BZ5_control`)
+dim(starmap_info$`20180419_BZ9_control`)
+dim(starmap_info$`20180424_BZ14_control`)
+
+head(starmap_info$`20180417_BZ5_control`)
+head(starmap_info$`20180419_BZ9_control`)
+head(starmap_info$`20180424_BZ14_control`)
+
+table(starmap_info$`20180417_BZ5_control`$c)
+table(starmap_info$`20180419_BZ9_control`$c)
+table(starmap_info$`20180424_BZ14_control`$c)
+
+table(starmap_info$`20180417_BZ5_control`$z)
+table(starmap_info$`20180419_BZ9_control`$z)
+table(starmap_info$`20180424_BZ14_control`$z)
+
+```
+
+
+## Plot cell types and domain annotations
+```{r}
+
+names = names(starmap_info)
+
+for (cur_name in names){
+  
+  info_cur = starmap_info[[cur_name]]
+  
+  g1 = ggplot(info_cur, aes(x = x, y = y, color = c)) +
+       geom_point() + ggtitle(paste0("cell types \n", cur_name))
+  
+  print(g1)
+  
+  g2 = ggplot(info_cur, aes(x = x, y = y, color = z)) +
+       geom_point() + ggtitle(paste0("domain annotation \n", cur_name))  
+  
+  print(g2)
+  
+  tab1 = table(info_cur$c, info_cur$z)
+  print(round(prop.table(tab1, margin = 1), digits=3))
+
+  tab2 = table(info_cur$c, info_cur$z)
+  print(round(prop.table(tab1, margin = 2), digits=3))
+  
+}
+```
+
+## Save files
+
+```{r}
+names = names(starmap_info)
+
+ct_vec = NULL
+
+cell_id_end = 0
+
+for (cur_name in names){
+  
+  info_cur = starmap_info[[cur_name]]
+  colnames(info_cur) = c("X", "Y", "CELL_TYPE", "DOMAIN")
+  
+  cell_id_start = cell_id_end+1
+  cell_id_end = cell_id_end+nrow(info_cur)
+  
+  print(cell_id_start)
+  print(cell_id_end)
+  
+  info_cur$CELL_ID = c(cell_id_start:cell_id_end)
+  info_cur$additional = rownames(info_cur)
+  
+  ct_vec = c(ct_vec, info_cur$CELL_TYPE)
+  
+  raw_data_dir = file.path(data_dir, "raw_data")
+  
+  if (!dir.exists(raw_data_dir)) {
+    dir.create(raw_data_dir)
+  }
+  
+  write.csv(info_cur, 
+            file =file.path(raw_data_dir, paste0(cur_name, ".csv")), 
+            row.names = FALSE)
+  
+}
+
+```
+
+## Create a place holder for image and patient meta info file
+
+```{r}
+df_images = data.frame(image_fullname = names, 
+                       patient_id = names, 
+                       subtype = rep("all", length(names)))
+
+df_patients = data.frame(patient_id = names)
+
+write.csv(df_images, file.path(data_dir, "image_info.csv"), row.names=FALSE)
+write.csv(df_patients, file.path(data_dir, "patient_info.csv"), row.names=FALSE)
+
+```
+
+## Print out all cell types
+```{r}
+length(ct_vec)
+unique_cts = unique(ct_vec)
+ordered(unique_cts)
+```
+
+# Session information
+```{r}
+sessionInfo()
+```
+

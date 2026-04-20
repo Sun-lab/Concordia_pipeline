@@ -1,0 +1,1651 @@
+"Patient_ID","Relapse","DX.name","NeoAdj","RoiID","response"
+"86_1",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,1",1
+"86_37",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,10",0
+"86_8",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,2",0
+"86_12",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,3",0
+"86_16",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,4",0
+"86_20",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,5",0
+"86_24",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,6",1
+"86_28",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,7",1
+"86_32",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,8",0
+"86_36",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,9",0
+"86_40",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,10",1
+"86_44",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,11",0
+"86_41",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A1,11",1
+"86_48",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A8,12",0
+"86_56",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,14",0
+"86_49",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,13",0
+"86_53",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A1,14",0
+"86_1",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,1",1
+"86_5",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,2",0
+"86_9",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A2,3",1
+"86_13",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,4",1
+"86_17",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A2,5",0
+"86_5",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,2",0
+"86_21",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,6",1
+"86_25",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,7",0
+"86_29",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,8",0
+"86_37",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,10",0
+"86_41",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A2,11",1
+"86_45",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,12",0
+"86_49",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A2,13",0
+"86_53",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A2,14",0
+"86_6",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,2",0
+"86_10",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A3,3",1
+"86_18",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,5",1
+"86_22",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A3,6",0
+"86_30",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A3,8",0
+"86_34",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,9",1
+"86_38",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,10",0
+"86_42",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,11",1
+"86_50",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A3,13",1
+"86_54",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A3,14",1
+"86_6",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,2",0
+"86_14",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,4",0
+"86_18",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,5",1
+"86_26",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,7",1
+"86_17",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A1,5",0
+"86_30",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A4,8",0
+"86_34",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,9",1
+"86_38",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,10",0
+"86_42",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,11",1
+"86_50",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A4,13",1
+"86_54",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A4,14",1
+"86_11",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A5,3",0
+"86_21",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,6",1
+"86_15",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,4",1
+"86_19",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,5",1
+"86_23",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,6",1
+"86_27",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,7",1
+"86_31",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,8",0
+"86_35",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A5,9",0
+"86_39",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,10",0
+"86_43",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A5,11",1
+"86_47",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A5,12",0
+"86_25",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,7",0
+"86_55",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A5,14",1
+"86_3",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,1",0
+"86_11",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A6,3",0
+"86_15",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,4",1
+"86_19",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,5",1
+"86_23",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,6",1
+"86_27",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,7",1
+"86_31",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,8",0
+"86_35",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A6,9",0
+"86_29",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A1,8",0
+"86_39",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,10",0
+"86_43",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A6,11",1
+"86_47",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,12",0
+"86_51",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A6,13",1
+"86_55",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A6,14",1
+"86_4",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,1",0
+"86_8",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,2",0
+"86_16",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,4",0
+"86_20",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A7,5",0
+"86_28",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,7",1
+"86_32",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A7,8",0
+"86_36",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A7,9",0
+"86_40",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,10",1
+"86_44",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A7,11",0
+"86_52",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A7,13",0
+"86_4",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_A8,1",0
+"86_93",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,10",1
+"86_64",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,2",0
+"86_68",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,3",0
+"86_72",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,4",0
+"86_76",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,5",0
+"86_80",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B8,6",0
+"86_84",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B8,7",1
+"86_88",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B8,8",0
+"86_92",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,9",0
+"86_96",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,10",0
+"86_97",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,11",1
+"86_104",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B8,12",1
+"86_101",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,12",1
+"86_105",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,13",0
+"86_109",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,14",1
+"86_61",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,2",0
+"86_65",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,3",0
+"86_69",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,4",0
+"86_73",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,5",0
+"86_61",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,2",0
+"86_77",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,6",1
+"86_97",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B2,11",1
+"86_101",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B2,12",1
+"86_105",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B2,13",0
+"86_109",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B2,14",1
+"86_65",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,3",0
+"86_62",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B3,2",0
+"86_66",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B3,3",0
+"86_70",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B3,4",1
+"86_78",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B3,6",0
+"86_94",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B3,10",1
+"86_98",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B3,11",0
+"86_69",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,4",0
+"86_102",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B3,12",0
+"86_106",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B3,13",0
+"86_110",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B3,14",0
+"86_62",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,2",0
+"86_66",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,3",0
+"86_74",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,5",0
+"86_78",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,6",0
+"86_82",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B4,7",1
+"86_86",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,8",0
+"86_90",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B4,9",1
+"86_94",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B4,10",1
+"86_102",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B4,12",0
+"86_106",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B4,13",0
+"86_110",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B4,14",0
+"86_63",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,2",1
+"86_67",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,3",1
+"86_77",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,6",1
+"86_75",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,5",1
+"86_79",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,6",1
+"86_95",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,10",0
+"86_103",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B5,12",0
+"86_107",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B5,13",0
+"86_81",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,7",0
+"86_111",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B5,14",0
+"86_63",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,2",1
+"86_67",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,3",1
+"86_75",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,5",1
+"86_79",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,6",1
+"86_85",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,8",0
+"86_95",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,10",0
+"86_99",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B6,11",0
+"86_107",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B6,13",0
+"86_111",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B6,14",0
+"86_60",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,1",0
+"86_68",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,3",0
+"86_72",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,4",0
+"86_76",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,5",0
+"86_89",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B1,9",0
+"86_80",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B7,6",0
+"86_84",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B7,7",1
+"86_88",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B7,8",0
+"86_92",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,9",0
+"86_96",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,10",0
+"86_104",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B7,12",1
+"86_112",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B7,14",1
+"86_60",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B8,1",0
+"86_113",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C1,1",1
+"86_120",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C8,2",1
+"86_128",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C8,4",0
+"86_140",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C8,7",1
+"86_153",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C1,11",1
+"86_157",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C1,12",1
+"86_121",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,3",1
+"86_125",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,4",1
+"86_133",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,6",1
+"86_145",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,9",0
+"86_149",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,10",0
+"86_153",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C2,11",1
+"86_157",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C2,12",1
+"86_114",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,1",0
+"86_121",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C1,3",1
+"86_122",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,3",1
+"86_130",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,5",1
+"86_134",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C3,6",0
+"86_138",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,7",1
+"86_146",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,9",0
+"86_154",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,11",0
+"86_125",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C1,4",1
+"86_158",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C3,12",0
+"86_114",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,1",0
+"86_122",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,3",1
+"86_130",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,5",1
+"86_138",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,7",1
+"86_142",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C4,8",0
+"86_146",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,9",0
+"86_150",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,10",0
+"86_154",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,11",0
+"86_158",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C4,12",0
+"86_115",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C5,1",0
+"86_135",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C5,6",1
+"86_147",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C5,9",0
+"86_151",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C5,10",0
+"86_115",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C6,1",0
+"86_135",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C6,6",1
+"86_143",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C6,8",1
+"86_151",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C6,10",0
+"86_155",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C6,11",1
+"86_116",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C7,1",0
+"86_128",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C7,4",0
+"86_136",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_C7,6",0
+"86_140",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C7,7",1
+"86_116",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_C8,1",0
+"87_162",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,1",0
+"87_198",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,10",0
+"87_220",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,15",1
+"87_228",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,17",1
+"87_169",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,2",0
+"87_173",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,3",0
+"87_177",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,4",0
+"87_181",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,5",0
+"87_185",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,6",0
+"87_189",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,7",0
+"87_202",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,11",0
+"87_193",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,8",0
+"87_197",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,9",1
+"87_201",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,10",0
+"87_209",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,12",0
+"87_213",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,13",1
+"87_217",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A7,14",1
+"87_225",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,16",1
+"87_229",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A7,17",1
+"87_206",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,12",1
+"87_169",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,2",0
+"87_173",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,3",0
+"87_177",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,4",0
+"87_181",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,5",0
+"87_185",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,6",0
+"87_189",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,7",0
+"87_193",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,8",0
+"87_197",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,9",1
+"87_201",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,10",0
+"87_210",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,13",0
+"87_209",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,12",0
+"87_213",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,13",1
+"87_217",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A8,14",1
+"87_225",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,16",1
+"87_229",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A8,17",1
+"87_219",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,15",1
+"87_214",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,14",0
+"87_218",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,15",1
+"87_222",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,16",0
+"87_226",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,17",0
+"87_162",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,1",0
+"87_166",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,2",1
+"87_166",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,2",1
+"87_170",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,3",0
+"87_174",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,4",0
+"87_178",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,5",0
+"87_182",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,6",0
+"87_186",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,7",1
+"87_190",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,8",0
+"87_194",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,9",1
+"87_198",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,10",0
+"87_202",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,11",0
+"87_206",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,12",1
+"87_170",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,3",0
+"87_210",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,13",0
+"87_214",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,14",0
+"87_218",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,15",1
+"87_222",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A2,16",0
+"87_226",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A2,17",0
+"87_167",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,2",1
+"87_171",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,3",1
+"87_175",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,4",0
+"87_179",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,5",0
+"87_174",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,4",0
+"87_183",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,6",0
+"87_187",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,7",1
+"87_191",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,8",1
+"87_195",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,9",1
+"87_199",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,10",1
+"87_203",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,11",1
+"87_207",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,12",1
+"87_211",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,13",0
+"87_215",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,14",1
+"87_178",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,5",0
+"87_223",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A3,16",1
+"87_227",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A3,17",0
+"87_163",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,1",0
+"87_167",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,2",1
+"87_171",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,3",1
+"87_175",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,4",0
+"87_179",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,5",0
+"87_183",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,6",0
+"87_187",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,7",1
+"87_191",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,8",1
+"87_182",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,6",0
+"87_195",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,9",1
+"87_199",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,10",1
+"87_207",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,12",1
+"87_211",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,13",0
+"87_215",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,14",1
+"87_219",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,15",1
+"87_223",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A4,16",1
+"87_227",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A4,17",0
+"87_164",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,1",1
+"87_186",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,7",1
+"87_168",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,2",1
+"87_172",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,3",0
+"87_176",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,4",1
+"87_188",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,7",0
+"87_192",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,8",1
+"87_196",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,9",1
+"87_200",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,10",0
+"87_204",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,11",0
+"87_190",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A1,8",0
+"87_208",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,12",0
+"87_212",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,13",1
+"87_216",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,14",0
+"87_220",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A5,15",1
+"87_228",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A5,17",1
+"87_164",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,1",1
+"87_168",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,2",1
+"87_172",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,3",0
+"87_176",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,4",1
+"87_194",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A1,9",1
+"87_188",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,7",0
+"87_192",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,8",1
+"87_196",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,9",1
+"87_200",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,10",0
+"87_204",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,11",0
+"87_208",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,12",0
+"87_212",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_A6,13",1
+"87_216",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_A6,14",0
+"87_230",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B1,1",0
+"87_288",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,15",1
+"87_292",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,16",0
+"87_296",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,17",0
+"87_233",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,1",0
+"87_237",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B7,2",0
+"87_245",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B7,4",1
+"87_249",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,5",0
+"87_253",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B7,6",0
+"87_257",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,7",0
+"87_270",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,11",0
+"87_261",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B7,8",0
+"87_269",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,10",1
+"87_273",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,11",0
+"87_277",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,12",1
+"87_281",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B7,13",1
+"87_285",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,14",0
+"87_289",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,15",0
+"87_274",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B1,12",0
+"87_233",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,1",0
+"87_237",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,2",0
+"87_241",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,3",0
+"87_245",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,4",1
+"87_249",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,5",0
+"87_253",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,6",0
+"87_257",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,7",0
+"87_261",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,8",0
+"87_269",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,10",1
+"87_278",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,13",0
+"87_273",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,11",0
+"87_277",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,12",1
+"87_281",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,13",1
+"87_285",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,14",0
+"87_289",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,15",0
+"87_293",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B8,16",1
+"87_297",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B8,17",1
+"87_282",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,14",0
+"87_290",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,16",1
+"87_294",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B1,17",0
+"87_230",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B2,1",0
+"87_234",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,2",1
+"87_234",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,2",1
+"87_238",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,3",1
+"87_242",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,4",0
+"87_246",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,5",0
+"87_254",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,7",0
+"87_258",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,8",1
+"87_270",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,11",0
+"87_274",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B2,12",0
+"87_238",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,3",1
+"87_278",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,13",0
+"87_282",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,14",0
+"87_290",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B2,16",1
+"87_294",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B2,17",0
+"87_231",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,1",0
+"87_235",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,2",0
+"87_239",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,3",0
+"87_243",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,4",1
+"87_242",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,4",0
+"87_251",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,6",0
+"87_255",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,7",0
+"87_263",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,9",1
+"87_267",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,10",0
+"87_271",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,11",0
+"87_275",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,12",0
+"87_279",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B3,13",1
+"87_246",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,5",0
+"87_295",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B3,17",1
+"87_231",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,1",0
+"87_235",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,2",0
+"87_239",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,3",0
+"87_243",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,4",1
+"87_247",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,5",0
+"87_251",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,6",0
+"87_255",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,7",0
+"87_250",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B1,6",0
+"87_263",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,9",1
+"87_267",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,10",0
+"87_271",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,11",0
+"87_275",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B4,12",0
+"87_295",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B4,17",1
+"87_254",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,7",0
+"87_240",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,3",0
+"87_244",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,4",1
+"87_248",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,5",1
+"87_252",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,6",0
+"87_256",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,7",0
+"87_260",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,8",1
+"87_268",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,10",0
+"87_272",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,11",1
+"87_258",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B1,8",1
+"87_276",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,12",0
+"87_284",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,14",0
+"87_288",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,15",1
+"87_292",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B5,16",0
+"87_296",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B5,17",0
+"87_232",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,1",0
+"87_240",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,3",0
+"87_244",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,4",1
+"87_248",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,5",1
+"87_252",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,6",0
+"87_256",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,7",0
+"87_260",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,8",1
+"87_264",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,9",0
+"87_268",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,10",0
+"87_272",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B6,11",1
+"87_276",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,12",0
+"87_284",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_B6,14",0
+"87_334",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C1,10",1
+"87_301",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C7,1",0
+"87_305",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,2",1
+"87_313",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,4",0
+"87_321",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,6",0
+"87_325",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C7,7",1
+"87_338",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,11",0
+"87_329",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,8",0
+"87_333",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,9",0
+"87_337",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,10",0
+"87_341",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C7,11",0
+"87_345",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C7,12",1
+"87_353",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C7,14",0
+"87_357",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C7,15",0
+"87_342",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,12",1
+"87_301",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C8,1",0
+"87_305",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,2",1
+"87_309",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,3",0
+"87_313",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,4",0
+"87_321",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,6",0
+"87_325",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C8,7",1
+"87_329",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,8",0
+"87_333",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,9",0
+"87_337",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,10",0
+"87_346",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C1,13",1
+"87_341",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C8,11",0
+"87_345",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C8,12",1
+"87_353",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C8,14",0
+"87_357",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C8,15",0
+"87_354",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,15",0
+"87_298",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C2,1",0
+"87_302",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,2",0
+"87_302",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,2",0
+"87_306",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,3",0
+"87_310",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,4",0
+"87_314",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C2,5",1
+"87_322",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,7",1
+"87_326",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C2,8",0
+"87_330",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,9",1
+"87_334",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C2,10",1
+"87_338",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,11",0
+"87_342",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,12",1
+"87_306",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,3",0
+"87_346",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C2,13",1
+"87_354",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C2,15",0
+"87_303",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,2",0
+"87_307",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,3",1
+"87_311",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,4",1
+"87_315",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C3,5",1
+"87_310",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,4",0
+"87_319",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,6",0
+"87_323",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C3,7",0
+"87_327",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C3,8",1
+"87_331",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C3,9",0
+"87_335",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,10",1
+"87_339",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,11",0
+"87_343",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,12",0
+"87_347",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C3,13",1
+"87_351",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C3,14",1
+"87_314",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C1,5",1
+"87_303",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,2",0
+"87_307",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,3",1
+"87_311",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,4",1
+"87_315",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C4,5",1
+"87_319",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,6",0
+"87_331",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C4,9",0
+"87_335",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,10",1
+"87_339",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,11",0
+"87_343",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,12",0
+"87_347",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C4,13",1
+"87_351",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C4,14",1
+"87_300",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,1",0
+"87_322",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C1,7",1
+"87_304",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,2",1
+"87_308",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,3",1
+"87_312",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,4",1
+"87_316",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,5",0
+"87_320",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C5,6",0
+"87_324",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,7",1
+"87_328",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,8",0
+"87_336",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,10",0
+"87_340",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C5,11",0
+"87_326",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C1,8",0
+"87_348",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C5,13",1
+"87_352",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C5,14",0
+"87_300",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,1",0
+"87_304",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,2",1
+"87_308",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,3",1
+"87_312",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,4",1
+"87_316",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,5",0
+"87_320",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C6,6",0
+"87_324",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,7",1
+"87_328",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,8",0
+"87_332",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","87_C6,9",0
+"87_336",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,10",0
+"87_344",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,12",1
+"87_352",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_C6,14",0
+"88_416",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A6,15",0
+"88_420",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,16",0
+"88_365",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A7,2",1
+"88_377",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A7,5",0
+"88_381",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A7,6",1
+"88_385",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A7,7",1
+"88_389",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A7,8",0
+"88_378",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,6",1
+"88_405",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A7,12",0
+"88_409",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A7,13",0
+"88_413",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A7,14",0
+"88_421",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A7,16",1
+"88_365",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A8,2",1
+"88_382",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,7",0
+"88_377",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A8,5",0
+"88_381",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A8,6",1
+"88_385",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A8,7",1
+"88_389",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A8,8",0
+"88_405",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A8,12",0
+"88_409",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A8,13",0
+"88_413",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A8,14",0
+"88_363",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,2",1
+"88_364",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,2",1
+"88_390",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,9",1
+"88_394",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,10",1
+"88_398",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,11",0
+"88_402",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A1,12",0
+"88_406",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A1,13",1
+"88_410",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,14",1
+"88_414",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,15",1
+"88_418",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A1,16",1
+"88_358",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,1",0
+"88_362",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,2",1
+"88_370",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A2,4",0
+"88_378",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,6",1
+"88_382",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,7",0
+"88_390",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,9",1
+"88_394",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,10",1
+"88_398",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,11",0
+"88_402",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A2,12",0
+"88_406",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A2,13",1
+"88_410",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,14",1
+"88_414",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A2,15",1
+"88_418",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A2,16",1
+"88_359",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A3,1",0
+"88_363",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,2",1
+"88_367",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A3,3",1
+"88_371",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,4",1
+"88_379",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A3,6",0
+"88_391",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A3,9",1
+"88_395",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,10",0
+"88_403",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A3,12",0
+"88_407",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,13",1
+"88_411",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,14",1
+"88_419",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A3,16",1
+"88_359",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A4,1",0
+"88_367",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A4,3",1
+"88_371",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,4",1
+"88_358",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,1",0
+"88_391",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A4,9",1
+"88_395",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,10",0
+"88_403",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A4,12",0
+"88_407",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,13",1
+"88_411",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,14",1
+"88_415",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,15",0
+"88_419",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A4,16",1
+"88_360",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,1",1
+"88_368",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,3",1
+"88_372",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,4",0
+"88_376",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,5",1
+"88_388",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,8",0
+"88_392",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,9",0
+"88_400",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,11",1
+"88_404",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,12",1
+"88_408",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,13",0
+"88_416",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A5,15",0
+"88_420",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A5,16",0
+"88_360",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,1",1
+"88_368",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,3",1
+"88_372",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A6,4",0
+"88_376",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,5",1
+"88_388",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,8",0
+"88_392",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A6,9",0
+"88_400",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A6,11",1
+"88_404",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A6,12",1
+"88_408",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A6,13",0
+"88_458",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B1,10",0
+"88_437",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,4",0
+"88_441",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,5",1
+"88_445",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,6",1
+"88_449",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,7",0
+"88_453",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,8",1
+"88_457",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,9",0
+"88_461",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,10",1
+"88_465",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,11",1
+"88_469",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,12",1
+"88_473",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,13",0
+"88_477",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,14",0
+"88_485",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,16",0
+"88_425",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,1",0
+"88_433",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,3",0
+"88_437",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,4",0
+"88_441",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,5",1
+"88_445",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,6",1
+"88_449",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,7",0
+"88_466",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,12",1
+"88_453",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,8",1
+"88_457",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,9",0
+"88_461",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,10",1
+"88_469",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,12",1
+"88_473",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,13",0
+"88_477",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B8,14",0
+"88_485",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B8,16",0
+"88_474",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B1,14",0
+"88_478",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,15",0
+"88_482",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,16",0
+"88_430",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,3",1
+"88_438",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B2,5",0
+"88_442",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,6",0
+"88_454",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,9",1
+"88_458",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B2,10",0
+"88_462",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B2,11",0
+"88_466",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,12",1
+"88_470",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,13",1
+"88_430",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,3",1
+"88_474",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B2,14",0
+"88_478",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,15",0
+"88_482",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B2,16",0
+"88_423",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,1",1
+"88_435",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,4",0
+"88_439",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,5",1
+"88_443",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,6",0
+"88_447",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,7",1
+"88_451",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,8",0
+"88_455",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,9",1
+"88_459",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,10",1
+"88_463",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,11",1
+"88_467",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,12",0
+"88_471",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,13",1
+"88_475",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,14",1
+"88_479",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B3,15",0
+"88_483",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B3,16",1
+"88_423",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,1",1
+"88_438",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B1,5",0
+"88_427",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,2",1
+"88_431",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,3",1
+"88_435",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,4",0
+"88_439",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,5",1
+"88_443",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,6",0
+"88_447",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,7",1
+"88_451",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,8",0
+"88_455",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,9",1
+"88_459",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,10",1
+"88_463",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,11",1
+"88_442",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,6",0
+"88_467",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,12",0
+"88_475",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,14",1
+"88_479",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B4,15",0
+"88_483",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B4,16",1
+"88_424",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,1",0
+"88_428",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,2",1
+"88_436",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,4",0
+"88_444",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,6",1
+"88_448",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B5,7",1
+"88_460",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B5,10",0
+"88_468",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,12",1
+"88_472",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B5,13",1
+"88_476",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,14",1
+"88_480",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B5,15",1
+"88_450",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,8",1
+"88_484",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B5,16",1
+"88_424",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,1",0
+"88_428",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,2",1
+"88_436",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,4",0
+"88_444",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,6",1
+"88_448",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B6,7",1
+"88_456",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,9",1
+"88_454",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B1,9",1
+"88_468",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,12",1
+"88_476",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,14",1
+"88_480",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B6,15",1
+"88_484",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B6,16",1
+"88_425",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B7,1",0
+"88_433",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B7,3",0
+"88_486",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C1,1",0
+"88_525",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,10",1
+"88_529",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C7,11",1
+"88_533",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,12",1
+"88_537",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,13",0
+"88_489",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C8,1",0
+"88_493",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,2",1
+"88_497",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,3",0
+"88_501",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C8,4",1
+"88_505",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,5",0
+"88_521",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C8,9",0
+"88_525",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,10",1
+"88_529",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C8,11",1
+"88_533",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,12",1
+"88_537",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C8,13",0
+"88_530",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C1,12",0
+"88_534",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C1,13",0
+"88_486",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C2,1",0
+"88_490",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C2,2",1
+"88_494",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C2,3",1
+"88_490",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C1,2",1
+"88_506",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C2,6",1
+"88_518",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C2,9",0
+"88_526",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C2,11",1
+"88_530",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C2,12",0
+"88_534",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C2,13",0
+"88_494",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C1,3",1
+"88_491",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,2",1
+"88_499",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,4",0
+"88_503",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,5",1
+"88_507",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,6",0
+"88_511",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,7",1
+"88_515",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C3,8",0
+"88_519",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,9",0
+"88_527",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,11",1
+"88_531",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C3,12",0
+"88_491",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,2",1
+"88_499",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,4",0
+"88_502",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C1,5",1
+"88_503",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,5",1
+"88_507",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,6",0
+"88_511",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,7",1
+"88_515",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C4,8",0
+"88_519",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,9",0
+"88_523",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,10",1
+"88_527",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,11",1
+"88_535",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C4,13",1
+"88_506",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C1,6",1
+"88_488",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C5,1",1
+"88_496",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,3",1
+"88_500",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,4",1
+"88_504",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C5,5",1
+"88_508",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,6",1
+"88_516",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,8",1
+"88_520",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,9",1
+"88_510",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C1,7",1
+"88_528",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C5,11",0
+"88_536",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,13",0
+"88_488",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C6,1",1
+"88_492",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,2",0
+"88_496",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,3",1
+"88_504",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C6,5",1
+"88_508",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,6",1
+"88_512",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C6,7",1
+"88_520",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,9",1
+"88_524",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,10",0
+"88_528",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C6,11",0
+"88_536",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C6,13",0
+"88_518",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C1,9",0
+"88_489",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C7,1",0
+"88_493",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,2",1
+"88_497",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,3",0
+"88_501",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C7,4",1
+"88_505",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,5",0
+"88_513",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C7,7",0
+"88_517",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C7,8",1
+"88_521",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C7,9",0
+"175_41",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,11",0
+"175_63",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,16",1
+"175_8",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,2",0
+"175_12",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,3",0
+"175_16",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,4",1
+"175_20",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,5",1
+"175_24",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A7,6",0
+"175_28",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,7",1
+"175_45",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A1,12",1
+"175_32",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A7,8",1
+"175_36",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,9",0
+"175_40",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,10",0
+"175_44",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,11",1
+"175_48",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,12",0
+"175_52",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,13",1
+"175_56",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,14",0
+"175_60",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,15",1
+"175_64",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,16",0
+"175_68",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A7,17",1
+"175_49",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A1,13",1
+"175_8",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,2",0
+"175_12",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,3",0
+"175_16",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,4",1
+"175_20",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,5",1
+"175_24",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A8,6",0
+"175_28",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,7",1
+"175_32",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A8,8",1
+"175_36",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,9",0
+"175_40",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,10",0
+"175_53",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,14",1
+"175_44",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,11",1
+"175_48",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,12",0
+"175_52",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,13",1
+"175_56",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,14",0
+"175_60",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,15",1
+"175_64",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,16",0
+"175_68",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A8,17",1
+"175_57",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,15",0
+"175_61",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A1,16",1
+"175_65",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,17",1
+"175_9",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,3",1
+"175_13",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,4",1
+"175_17",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A2,5",1
+"175_21",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,6",1
+"175_37",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,10",1
+"175_41",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,11",0
+"175_45",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A2,12",1
+"175_9",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,3",1
+"175_49",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A2,13",1
+"175_53",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,14",1
+"175_57",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,15",0
+"175_61",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A2,16",1
+"175_65",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A2,17",1
+"175_2",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,1",1
+"175_6",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,2",1
+"175_10",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,3",0
+"175_14",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,4",1
+"175_18",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,5",1
+"175_13",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,4",1
+"175_22",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A3,6",0
+"175_26",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,7",0
+"175_30",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A3,8",0
+"175_34",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A3,9",1
+"175_38",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,10",1
+"175_42",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,11",1
+"175_46",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,12",0
+"175_50",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,13",1
+"175_54",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,14",1
+"175_58",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,15",0
+"175_21",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,6",1
+"175_62",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A3,16",1
+"175_2",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,1",1
+"175_6",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,2",1
+"175_10",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,3",0
+"175_14",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,4",1
+"175_18",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,5",1
+"175_22",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A4,6",0
+"175_26",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,7",0
+"175_30",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A4,8",0
+"175_34",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A4,9",1
+"175_38",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,10",1
+"175_42",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,11",1
+"175_46",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,12",0
+"175_50",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,13",1
+"175_54",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,14",1
+"175_58",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,15",0
+"175_62",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A4,16",1
+"175_7",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,2",0
+"175_11",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,3",1
+"175_15",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,4",1
+"175_19",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,5",1
+"175_23",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,6",1
+"175_27",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,7",0
+"175_39",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,10",1
+"175_43",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A5,11",0
+"175_47",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A5,12",1
+"175_51",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,13",1
+"175_55",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,14",0
+"175_63",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,16",1
+"175_67",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A5,17",0
+"175_7",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,2",0
+"175_11",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,3",1
+"175_15",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,4",1
+"175_37",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A1,10",1
+"175_19",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,5",1
+"175_23",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,6",1
+"175_27",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,7",0
+"175_31",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,8",1
+"175_39",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,10",1
+"175_43",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A6,11",0
+"175_47",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_A6,12",1
+"175_51",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,13",1
+"175_55",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_A6,14",0
+"175_69",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,1",1
+"175_105",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,10",0
+"175_131",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,16",1
+"175_135",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,17",1
+"175_72",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,1",1
+"175_76",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,2",1
+"175_80",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,3",0
+"175_84",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,4",1
+"175_88",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,5",1
+"175_92",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,6",1
+"175_96",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,7",1
+"175_100",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,8",1
+"175_104",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,9",1
+"175_116",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,12",1
+"175_120",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,13",1
+"175_124",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,14",0
+"175_128",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B7,15",0
+"175_132",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,16",0
+"175_136",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B7,17",1
+"175_72",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,1",1
+"175_76",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,2",1
+"175_80",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,3",0
+"175_84",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,4",1
+"175_88",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,5",1
+"175_92",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,6",1
+"175_96",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,7",1
+"175_100",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,8",1
+"175_104",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,9",1
+"175_117",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,13",1
+"175_116",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,12",1
+"175_120",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,13",1
+"175_124",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,14",0
+"175_128",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B8,15",0
+"175_132",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,16",0
+"175_136",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B8,17",1
+"175_125",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,15",1
+"175_129",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,16",0
+"175_133",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,17",1
+"175_69",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,1",1
+"175_73",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,2",0
+"175_73",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,2",0
+"175_77",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,3",1
+"175_81",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,4",0
+"175_85",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,5",0
+"175_93",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,7",1
+"175_97",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,8",1
+"175_101",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B2,9",0
+"175_105",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,10",0
+"175_77",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,3",1
+"175_117",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,13",1
+"175_125",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,15",1
+"175_129",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,16",0
+"175_133",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B2,17",1
+"175_70",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B3,1",1
+"175_78",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,3",0
+"175_82",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,4",0
+"175_86",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,5",1
+"175_81",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,4",0
+"175_90",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,6",1
+"175_94",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,7",1
+"175_98",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,8",1
+"175_102",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B3,9",0
+"175_106",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,10",1
+"175_110",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,11",1
+"175_114",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B3,12",1
+"175_126",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B3,15",1
+"175_85",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,5",0
+"175_130",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,16",1
+"175_134",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B3,17",1
+"175_70",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B4,1",1
+"175_78",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,3",0
+"175_82",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,4",0
+"175_86",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,5",1
+"175_90",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,6",1
+"175_94",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,7",1
+"175_98",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,8",1
+"175_102",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B4,9",0
+"175_106",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,10",1
+"175_110",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,11",1
+"175_114",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B4,12",1
+"175_122",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,14",0
+"175_126",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B4,15",1
+"175_130",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,16",1
+"175_134",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B4,17",1
+"175_71",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B5,1",1
+"175_93",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,7",1
+"175_83",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,4",1
+"175_87",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,5",1
+"175_91",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,6",0
+"175_95",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B5,7",1
+"175_99",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,8",0
+"175_107",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B5,10",1
+"175_111",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B5,11",0
+"175_97",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B1,8",1
+"175_115",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,12",1
+"175_119",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,13",0
+"175_123",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B5,14",1
+"175_131",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,16",1
+"175_135",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B5,17",1
+"175_71",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B6,1",1
+"175_83",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,4",1
+"175_101",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B1,9",0
+"175_87",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,5",1
+"175_91",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,6",0
+"175_95",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B6,7",1
+"175_99",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,8",0
+"175_107",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B6,10",1
+"175_111",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B6,11",0
+"175_115",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,12",1
+"175_119",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_B6,13",0
+"175_123",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_B6,14",1
+"175_137",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C1,1",1
+"175_173",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C1,10",0
+"175_152",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,4",1
+"175_156",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,5",1
+"175_160",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C7,6",0
+"175_164",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C7,7",0
+"175_168",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C7,8",0
+"175_172",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C7,9",0
+"175_180",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,11",1
+"175_188",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,13",0
+"175_177",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,11",0
+"175_140",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,1",1
+"175_144",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C8,2",1
+"175_148",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,3",0
+"175_152",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,4",1
+"175_156",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,5",1
+"175_160",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C8,6",0
+"175_164",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C8,7",0
+"175_181",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C1,12",0
+"175_168",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C8,8",0
+"175_172",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C8,9",0
+"175_180",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,11",1
+"175_188",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C8,13",0
+"175_189",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,14",0
+"175_137",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C2,1",1
+"175_141",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,2",1
+"175_145",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,3",1
+"175_141",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,2",1
+"175_149",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,4",0
+"175_153",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,5",1
+"175_157",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,6",0
+"175_161",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C2,7",1
+"175_169",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C2,9",0
+"175_173",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C2,10",0
+"175_177",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,11",0
+"175_181",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C2,12",0
+"175_145",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,3",1
+"175_189",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C2,14",0
+"175_138",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,1",1
+"175_142",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,2",1
+"175_146",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,3",0
+"175_154",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,5",0
+"175_149",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,4",0
+"175_166",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C3,8",1
+"175_170",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,9",0
+"175_174",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,10",1
+"175_178",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,11",1
+"175_182",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,12",0
+"175_186",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C3,13",1
+"175_138",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,1",1
+"175_153",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C1,5",1
+"175_142",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,2",1
+"175_146",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,3",0
+"175_154",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,5",0
+"175_166",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C4,8",1
+"175_170",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,9",0
+"175_174",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,10",1
+"175_178",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,11",1
+"175_182",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,12",0
+"175_186",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C4,13",1
+"175_143",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,2",1
+"175_147",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,3",0
+"175_151",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C5,4",0
+"175_155",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C5,5",0
+"175_161",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C1,7",1
+"175_159",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,6",0
+"175_163",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C5,7",1
+"175_167",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,8",0
+"175_171",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,9",1
+"175_175",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,10",1
+"175_179",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C5,11",1
+"175_183",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C5,12",0
+"175_191",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C5,14",1
+"175_143",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,2",1
+"175_147",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,3",0
+"175_151",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C6,4",0
+"175_155",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C6,5",0
+"175_159",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,6",0
+"175_163",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C6,7",1
+"175_167",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,8",0
+"175_171",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,9",1
+"175_169",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C1,9",0
+"175_175",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,10",1
+"175_179",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C6,11",1
+"175_183",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C6,12",0
+"175_191",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C6,14",1
+"175_140",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,1",1
+"175_144",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","175_C7,2",1
+"175_148",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","175_C7,3",0
+"176_193",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A1,1",1
+"176_229",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,10",0
+"176_208",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A7,4",0
+"176_212",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,5",1
+"176_216",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,6",0
+"176_220",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,7",1
+"176_224",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,8",1
+"176_228",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,9",1
+"176_232",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,10",0
+"176_240",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,12",1
+"176_244",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A7,13",1
+"176_233",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,11",1
+"176_248",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,14",0
+"176_252",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,15",1
+"176_256",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,16",1
+"176_200",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A8,2",1
+"176_204",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,3",1
+"176_208",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A8,4",0
+"176_212",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,5",1
+"176_216",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,6",0
+"176_220",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,7",1
+"176_237",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A1,12",0
+"176_224",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,8",1
+"176_228",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,9",1
+"176_232",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,10",0
+"176_240",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,12",1
+"176_244",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A8,13",1
+"176_248",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,14",0
+"176_252",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,15",1
+"176_256",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A8,16",1
+"176_245",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,14",0
+"176_249",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,15",1
+"176_253",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,16",0
+"176_193",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A2,1",1
+"176_197",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,2",0
+"176_201",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A2,3",0
+"176_197",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,2",0
+"176_205",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,4",1
+"176_209",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,5",0
+"176_213",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,6",0
+"176_217",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A2,7",1
+"176_221",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,8",0
+"176_225",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,9",1
+"176_229",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,10",0
+"176_233",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,11",1
+"176_237",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A2,12",0
+"176_201",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A1,3",0
+"176_245",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,14",0
+"176_249",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,15",1
+"176_253",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A2,16",0
+"176_194",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,1",1
+"176_202",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A3,3",1
+"176_206",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A3,4",0
+"176_210",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,5",1
+"176_214",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,6",1
+"176_218",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,7",0
+"176_205",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,4",1
+"176_222",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,8",1
+"176_226",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,9",1
+"176_234",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,11",1
+"176_238",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,12",0
+"176_242",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,13",1
+"176_246",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,14",1
+"176_250",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,15",0
+"176_254",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A3,16",1
+"176_194",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,1",1
+"176_209",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,5",0
+"176_198",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A4,2",1
+"176_202",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A4,3",1
+"176_206",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A4,4",0
+"176_210",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,5",1
+"176_214",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,6",1
+"176_218",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,7",0
+"176_222",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,8",1
+"176_226",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,9",1
+"176_234",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,11",1
+"176_213",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,6",0
+"176_238",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,12",0
+"176_242",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,13",1
+"176_246",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,14",1
+"176_250",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,15",0
+"176_254",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A4,16",1
+"176_195",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,1",1
+"176_199",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A5,2",1
+"176_203",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A5,3",1
+"176_207",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,4",1
+"176_211",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,5",1
+"176_217",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A1,7",1
+"176_215",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,6",1
+"176_219",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,7",1
+"176_223",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,8",1
+"176_227",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A5,9",1
+"176_231",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,10",1
+"176_235",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,11",1
+"176_239",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,12",1
+"176_243",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,13",1
+"176_251",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,15",0
+"176_221",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,8",0
+"176_255",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A5,16",1
+"176_195",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,1",1
+"176_199",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A6,2",1
+"176_203",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A6,3",1
+"176_207",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,4",1
+"176_211",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,5",1
+"176_215",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,6",1
+"176_219",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,7",1
+"176_223",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,8",1
+"176_227",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A6,9",1
+"176_225",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A1,9",1
+"176_231",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,10",1
+"176_235",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,11",1
+"176_243",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,13",1
+"176_251",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,15",0
+"176_255",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,16",1
+"176_200",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_A7,2",1
+"176_204",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A7,3",1
+"176_257",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,1",1
+"176_293",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,10",1
+"176_272",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,4",1
+"176_276",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,5",0
+"176_280",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,6",0
+"176_284",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,7",0
+"176_292",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,9",1
+"176_300",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,11",1
+"176_304",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,12",1
+"176_308",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,13",1
+"176_297",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,11",1
+"176_316",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,15",1
+"176_320",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B7,16",1
+"176_260",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,1",1
+"176_264",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,2",1
+"176_268",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,3",1
+"176_272",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,4",1
+"176_276",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,5",0
+"176_280",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,6",0
+"176_284",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,7",0
+"176_301",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,12",1
+"176_292",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,9",1
+"176_300",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,11",1
+"176_304",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,12",1
+"176_308",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,13",1
+"176_316",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B8,15",1
+"176_320",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B8,16",1
+"176_305",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,13",0
+"176_309",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,14",1
+"176_313",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B1,15",0
+"176_257",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,1",1
+"176_261",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,2",1
+"176_261",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,2",1
+"176_269",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,4",0
+"176_273",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,5",1
+"176_277",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,6",1
+"176_281",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B2,7",1
+"176_285",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,8",1
+"176_289",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,9",1
+"176_293",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,10",1
+"176_297",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,11",1
+"176_301",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,12",1
+"176_305",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,13",0
+"176_309",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B2,14",1
+"176_313",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B2,15",0
+"176_258",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,1",0
+"176_270",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,4",1
+"176_278",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,6",1
+"176_282",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,7",1
+"176_269",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,4",0
+"176_290",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,9",1
+"176_294",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,10",1
+"176_298",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B3,11",1
+"176_302",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B3,12",0
+"176_306",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,13",0
+"176_310",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B3,14",1
+"176_314",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B3,15",0
+"176_318",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B3,16",1
+"176_258",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,1",0
+"176_273",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,5",1
+"176_270",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,4",1
+"176_278",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,6",1
+"176_282",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,7",1
+"176_290",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,9",1
+"176_294",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,10",1
+"176_298",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B4,11",1
+"176_277",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,6",1
+"176_302",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B4,12",0
+"176_306",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,13",0
+"176_310",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B4,14",1
+"176_314",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B4,15",0
+"176_318",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B4,16",1
+"176_259",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,1",1
+"176_263",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,2",0
+"176_267",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B5,3",1
+"176_271",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,4",0
+"176_275",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,5",1
+"176_281",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B1,7",1
+"176_279",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B5,6",1
+"176_295",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,10",0
+"176_299",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,11",1
+"176_307",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,13",1
+"176_311",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,14",1
+"176_315",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,15",0
+"176_285",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,8",1
+"176_319",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B5,16",0
+"176_259",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,1",1
+"176_263",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,2",0
+"176_267",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B6,3",1
+"176_271",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,4",0
+"176_275",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,5",1
+"176_279",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_B6,6",1
+"176_289",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B1,9",1
+"176_295",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,10",0
+"176_299",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,11",1
+"176_307",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,13",1
+"176_311",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,14",1
+"176_315",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,15",0
+"176_319",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B6,16",0
+"176_260",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,1",1
+"176_264",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_B7,2",1
+"176_321",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,1",1
+"176_357",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,10",0
+"176_360",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,10",1
+"176_364",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,11",1
+"176_368",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C7,12",1
+"176_324",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,1",1
+"176_328",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,2",0
+"176_332",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,3",0
+"176_336",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,4",1
+"176_340",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,5",0
+"176_344",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,6",1
+"176_348",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,7",0
+"176_352",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,8",1
+"176_356",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,9",0
+"176_360",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,10",1
+"176_364",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C8,11",1
+"176_368",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C8,12",1
+"176_365",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,12",1
+"176_321",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,1",1
+"176_325",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C2,2",1
+"176_329",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C2,3",0
+"176_333",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,4",1
+"176_337",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,5",1
+"176_341",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C2,6",1
+"176_345",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,7",1
+"176_353",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C2,9",1
+"176_357",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,10",0
+"176_365",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C2,12",1
+"176_329",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C1,3",0
+"176_326",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,2",1
+"176_330",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,3",1
+"176_334",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C3,4",1
+"176_338",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,5",1
+"176_346",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C3,7",0
+"176_354",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,9",0
+"176_333",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,4",1
+"176_358",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,10",1
+"176_362",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C3,11",0
+"176_322",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C4,1",1
+"176_326",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,2",1
+"176_330",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,3",1
+"176_334",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C4,4",1
+"176_337",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,5",1
+"176_338",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,5",1
+"176_346",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C4,7",0
+"176_354",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,9",0
+"176_358",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,10",1
+"176_362",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C4,11",0
+"176_341",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C1,6",1
+"176_323",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,1",1
+"176_327",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C5,2",0
+"176_331",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,3",1
+"176_335",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,4",0
+"176_339",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,5",0
+"176_343",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C5,6",1
+"176_347",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C5,7",1
+"176_351",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C5,8",0
+"176_345",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C1,7",1
+"176_359",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,10",1
+"176_363",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,11",1
+"176_367",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C5,12",0
+"176_323",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,1",1
+"176_327",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C6,2",0
+"176_331",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,3",1
+"176_335",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,4",0
+"176_339",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,5",0
+"176_343",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C6,6",1
+"176_347",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C6,7",1
+"176_351",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C6,8",0
+"176_359",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,10",1
+"176_363",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,11",1
+"176_367",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C6,12",0
+"176_353",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C1,9",1
+"176_324",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,1",1
+"176_328",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,2",0
+"176_332",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,3",0
+"176_336",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,4",1
+"176_340",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,5",0
+"176_344",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,6",1
+"176_348",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,7",0
+"176_352",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,8",1
+"176_356",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_C7,9",0
+"178_418",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A1,13",0
+"178_417",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,12",1
+"178_421",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,13",1
+"178_425",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,14",1
+"178_433",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,16",0
+"178_437",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A8,17",1
+"178_441",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A8,18",1
+"178_438",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,18",1
+"178_370",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,1",1
+"178_378",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,3",1
+"178_398",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,8",1
+"178_402",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A2,9",0
+"178_378",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,3",1
+"178_406",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,10",1
+"178_410",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,11",1
+"178_414",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,12",1
+"178_430",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,16",0
+"178_438",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A2,18",1
+"178_375",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,2",1
+"178_395",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,7",1
+"178_382",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,4",1
+"178_403",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,9",1
+"178_411",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,11",1
+"178_415",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A3,12",1
+"178_423",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A3,14",0
+"178_427",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,15",0
+"178_435",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A3,17",0
+"178_375",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,2",1
+"178_379",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,3",0
+"178_391",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,6",1
+"178_395",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,7",1
+"178_407",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A4,10",1
+"178_411",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,11",1
+"178_415",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A4,12",1
+"178_419",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,13",0
+"178_427",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,15",0
+"178_431",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A4,16",1
+"178_398",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,8",1
+"178_435",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A4,17",0
+"178_384",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,4",1
+"178_392",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,6",1
+"178_400",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,8",1
+"178_404",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,9",1
+"178_408",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,10",0
+"178_420",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,13",1
+"178_402",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A1,9",0
+"178_424",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,14",1
+"178_436",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A5,17",1
+"178_384",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,4",1
+"178_388",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,5",1
+"178_392",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,6",1
+"178_400",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,8",1
+"178_404",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,9",1
+"178_406",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,10",1
+"178_408",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,10",0
+"178_416",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,12",0
+"178_420",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,13",1
+"178_424",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,14",1
+"178_436",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A6,17",1
+"178_377",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,2",0
+"178_381",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,3",1
+"178_385",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,4",1
+"178_410",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,11",1
+"178_401",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,8",1
+"178_409",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,10",0
+"178_413",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A7,11",1
+"178_417",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,12",1
+"178_425",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,14",1
+"178_433",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,16",0
+"178_437",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A7,17",1
+"178_414",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A1,12",1
+"178_441",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A7,18",1
+"178_377",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,2",0
+"178_381",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,3",1
+"178_385",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,4",1
+"178_389",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A8,5",1
+"178_401",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,8",1
+"178_409",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A8,10",0
+"178_442",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,1",0
+"178_486",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B1,12",0
+"178_461",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B7,5",0
+"178_469",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,7",0
+"178_473",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,8",1
+"178_477",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,9",0
+"178_481",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B7,10",0
+"178_485",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,11",1
+"178_489",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,12",1
+"178_493",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,13",1
+"178_497",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,14",0
+"178_501",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,15",0
+"178_513",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B7,18",0
+"178_445",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,1",0
+"178_453",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,3",1
+"178_469",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,7",0
+"178_473",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,8",1
+"178_494",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,14",1
+"178_477",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,9",0
+"178_481",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B8,10",0
+"178_485",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,11",1
+"178_489",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,12",1
+"178_493",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,13",1
+"178_497",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,14",0
+"178_501",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B8,15",0
+"178_505",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B8,16",1
+"178_513",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B8,18",0
+"178_498",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,15",1
+"178_502",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,16",0
+"178_506",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B1,17",1
+"178_510",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,18",1
+"178_442",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,1",0
+"178_450",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B2,3",0
+"178_450",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B1,3",0
+"178_458",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,5",0
+"178_462",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B2,6",1
+"178_466",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,7",1
+"178_470",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,8",0
+"178_474",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,9",1
+"178_478",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B2,10",0
+"178_482",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,11",1
+"178_486",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B2,12",0
+"178_458",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,5",0
+"178_498",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,15",1
+"178_502",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,16",0
+"178_506",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B2,17",1
+"178_510",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B2,18",1
+"178_443",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,1",1
+"178_447",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,2",0
+"178_451",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,3",1
+"178_455",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,4",0
+"178_459",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,5",0
+"178_463",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,6",1
+"178_462",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B1,6",1
+"178_467",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,7",1
+"178_471",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,8",1
+"178_475",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,9",1
+"178_479",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,10",1
+"178_483",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,11",0
+"178_491",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,13",1
+"178_499",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,15",0
+"178_503",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,16",1
+"178_466",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,7",1
+"178_507",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B3,17",1
+"178_511",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B3,18",1
+"178_443",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,1",1
+"178_447",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,2",0
+"178_451",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,3",1
+"178_455",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,4",0
+"178_459",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,5",0
+"178_463",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,6",1
+"178_467",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,7",1
+"178_471",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,8",1
+"178_475",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,9",1
+"178_479",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,10",1
+"178_483",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,11",0
+"178_499",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,15",0
+"178_503",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,16",1
+"178_507",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B4,17",1
+"178_511",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B4,18",1
+"178_444",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,1",0
+"178_474",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,9",1
+"178_448",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,2",1
+"178_456",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,4",0
+"178_460",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B5,5",0
+"178_464",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,6",0
+"178_476",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B5,9",1
+"178_484",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,11",1
+"178_492",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,13",1
+"178_478",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B1,10",0
+"178_500",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B5,15",0
+"178_504",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B5,16",1
+"178_508",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B5,17",0
+"178_512",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B5,18",0
+"178_448",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B6,2",1
+"178_456",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B6,4",0
+"178_460",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B6,5",0
+"178_468",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B6,7",1
+"178_472",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B6,8",1
+"178_482",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,11",1
+"178_476",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B6,9",1
+"178_492",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B6,13",1
+"178_500",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B6,15",0
+"178_508",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B6,17",0
+"178_512",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B6,18",0
+"178_453",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_B7,3",1
+"178_514",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C1,1",0
+"178_514",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C2,1",0
+"178_526",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C2,4",0
+"178_530",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C2,5",0
+"178_518",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C1,2",1
+"178_515",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C3,1",1
+"178_519",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C3,2",1
+"178_527",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C3,4",1
+"178_535",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C3,6",1
+"178_534",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C1,6",1
+"178_515",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C4,1",1
+"178_519",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C4,2",1
+"178_523",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C4,3",0
+"178_527",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C4,4",1
+"178_535",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C4,6",1
+"178_516",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C5,1",1
+"178_520",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C5,2",1
+"178_524",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C5,3",1
+"178_528",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C5,4",1
+"178_516",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C6,1",1
+"178_520",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C6,2",1
+"178_528",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C6,4",1
+"178_536",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C6,6",1
+"178_517",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C7,1",1
+"178_525",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C7,3",1
+"178_533",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C7,5",1
+"178_537",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C7,6",1
+"178_517",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C8,1",1
+"178_521",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C8,2",1
+"178_525",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C8,3",1
+"178_533",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_C8,5",1
+"178_537",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_C8,6",1
+"86_73",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_B1,5",0
+"87_241",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","87_B7,3",0
+"88_370",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_A1,4",0
+"88_462",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_B1,11",0
+"88_460",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_B6,10",0
+"88_526",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_C1,11",1
+"176_239",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","176_A6,12",1
+"176_322",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","176_C3,1",1
+"178_439",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A4,18",1
+"178_421",0,"Adenocarcinoma","NoNeoAdjuvantTherapy","178_A7,13",1
+"178_470",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B1,8",0
+"86_48",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","86_A7,12",0
+"88_492",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","88_C5,2",0
+"178_461",1,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_B8,5",0
+"178_428",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A5,15",1
+"86_87",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B6,8",0
+"88_362",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","88_A1,2",1
+"86_103",1,"Adenocarcinoma","NoNeoAdjuvantTherapy","86_B6,12",0
+"178_431",0,"Squamous cell carcinoma","NoNeoAdjuvantTherapy","178_A3,16",1
