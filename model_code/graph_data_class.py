@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# incorporate the part of computing and saving out cell type group composition in upto2nd degree neighborhood
-
 # include four ways of building graphs:
 # basic graph
 # two steps extension
@@ -878,7 +876,7 @@ def nx_to_tg_graph_2nd(G,
         current_time = now.strftime("%H:%M:%S")
         print("Start generating figures for extended graphs: ", current_time)
 
-        # generate figure for extended graph
+        # generate figure for additional edges
 
         file_name=G_add_second.region_id+"_2nd_only_additional_edges"
         plot_graph(G_add_second,
@@ -1198,7 +1196,7 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
         current_time = now.strftime("%H:%M:%S")
         print("Start generating figures for extended graphs: ", current_time)
 
-        # generate figure for extended graph
+        # generate figure for additional edges
 
         file_name=G_add_second.region_id+"_second_additional_edges"
         plot_graph(G_add_second,
@@ -1402,7 +1400,7 @@ class CellularGraphDataset(Dataset):
         self.cached_data = {}
 
         self.N = len(self.processed_paths)
-        # ???
+        # 
         self.region_ids = [self.get_full(idx).region_id for idx in range(self.N)]
 
 
