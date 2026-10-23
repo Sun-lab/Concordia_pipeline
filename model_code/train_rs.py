@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# train the GNN model using mincut_pool loss
-# save the embeddings right before softmax out
-
 
 import os
 import sys
@@ -43,7 +40,6 @@ import gc
 
 import argparse
 
-# this line below is needed if want to import function from other python files in local directory
 sys.path.append(os.getcwd())
 
 from data_utilities import data_features, make_model_run_id
@@ -96,9 +92,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
                    random_seed_index=1,
                    random_seed_file="./data/random_seeds_40_triples.txt"):
 
-    # the random seeds are read from a file rather than hard-coded, so that the
-    # same code can be run repeatedly with a different, non-overlapping seed
-    # triple each time. random_seed_index counts from 1
     with open(random_seed_file) as f:
         all_random_seeds = [int(line) for line in f if line.strip() != ""]
 
@@ -130,9 +123,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
     mincut_type = "sparse_mincut_pool"
     n_gcns = 2
 
-    # Metadata for the chosen dataset
-    # not split on dataset based on patients into training/validation/test
-    # all images go to training set
     if model_run_id is None:
         model_run_id = make_model_run_id(data_name, group_scheme, dist_cutoff,
                                          expanded_edge_cutoff, top_k,
@@ -153,9 +143,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
 
     result_subfolder = data_dicts.result_subfolder
 
-    # model_run_id itself is left unsuffixed, because it is what locates the
-    # graph objects to load. The seed index is appended only to the output
-    # paths, so that the repeated runs do not overwrite each other
     result_subfolder_rs = result_subfolder+"__repeat_"+str(random_seed_index)
 
     output_dir = "./results_rs/"+result_subfolder_rs+"/"+graph_type
@@ -168,7 +155,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
 
     os.makedirs(embedding_save_dir, exist_ok=True)
 
-    # Settings
     raw_data_root = data_dicts.raw_dir
     dataset_root = data_dicts.dataset_root
 
@@ -185,7 +171,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
     print(len(train_images))
 
 
-    # Define Cellular Graph Dataset
     dataset_kwargs = {
         'raw_cell_info_path': raw_data_root,
         'raw_folder_name': 'graph',
@@ -211,7 +196,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
 
     N_CELL_TYPE_GROUPS = len(data_dicts.group_ct_mapping)
 
-    # Define Transformers
     transformers = [
         add_num_of_cells()
     ]
@@ -225,7 +209,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
     dataset
     dataset.raw_paths[-1]
 
-    # get data objects corresponding to training images
     region_ids = [dataset.get_full(i).region_id for i in range(dataset.N)]
 
     train_dataset = dataset.index_select([i for i,x in enumerate(region_ids) if x in train_images])
@@ -239,7 +222,7 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
     assert len(set(train_dataset.region_ids))==len(train_images), "numbers of images do not align"
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    images_loader = DataLoader(train_dataset, batch_size=1, shuffle=False) # for saving the embeddings for each image separately
+    images_loader = DataLoader(train_dataset, batch_size=1, shuffle=False)
 
     model = GCN_model(cell_feature, N_CELL_TYPE_GROUPS,
                       gcn_type, n_gcns, s_dim2, mincut_type, skip_type)
@@ -251,22 +234,20 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
 
     def train(mincut_type):
         model.zero_grad(set_to_none=True)
-        # model.to(device)
         model.train()
 
-        for data in train_loader:  # Iterate in batches over the training dataset.
-            # print(data)
+        for data in train_loader:
             data = data.to(device)
             if mincut_type == "sparse_mincut_pool":
                 mc_loss, o1_loss = model(data.x,
                                          remove_self_loops(data.edge_index)[0],
                                          data.batch,
-                                         data.n_cells)   # Perform a single forward pass.
-                loss = mc_loss + o1_loss # Compute the loss.
+                                         data.n_cells)
+                loss = mc_loss + o1_loss
 
-            loss.backward()  # Derive gradients.
-            optimizer.step()  # Update parameters based on gradients.
-            model.zero_grad(set_to_none=True)  # Clear gradients.
+            loss.backward()
+            optimizer.step()
+            model.zero_grad(set_to_none=True)
 
 
     def record_loss(loader, mincut_type):
@@ -278,7 +259,7 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
         o_loss_list = []
 
         with torch.no_grad():
-            for data in loader:  # Iterate in batches over the training/validation/test dataset.
+            for data in loader:
 
                 data = data.to(device)
 
@@ -336,7 +317,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
     df_train.to_csv(output_dir+"/train_record.csv",
                         index=False)
 
-    # save the embeddings right before softmax out
     model.eval()
     
     layer_outputs = {}
@@ -357,7 +337,6 @@ def mincutpool_run(data_name="cords_2024", graph_type="extended", gcn_type="gat2
                     data.batch,
                     data.n_cells)
 
-        # Save the desired layer output for linear1 layer
         output = layer_outputs["linear1"]
 
         df = pd.DataFrame(output.detach().cpu().numpy())

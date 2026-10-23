@@ -23,7 +23,6 @@ def make_model_run_id(data_name, group_scheme, dist_cutoff,
 
 
 def get_cords_cell_type_mapping():
-    # mappping each fine scale cell type to a unique integer between 0 and number of cell types - 1
     return {'Bcell': 0,
             'Blood': 1,
             'CD4': 2,
@@ -355,28 +354,17 @@ class data_features(object):
             self.cell_type_mapping = get_cords_cell_type_mapping()
             self.group_ct_mapping = get_group_ct_mapping(data_name, group_scheme, self.cell_type_mapping)
 
-            # load the list of region IDs
             df_regions = pd.read_csv(os.path.join(self.data_dir, "region_list.csv"),
                                      header=0)
 
             self.train_images = df_regions["region_ID"].tolist()
 
-            # distance cutoff for getting edges in basic graph
             self.dist_cutoff = dist_cutoff
             self.expanded_edge_cutoff = expanded_edge_cutoff
             self.top_k = top_k
             self.ctg_comp_dist_cutoff = ctg_comp_dist_cutoff
             self.degree_limit = degree_limit
-            # path purity cutoff for telling whether the shortest path between two cells is a qualified candidate edges to add
             self.path_purity_cutoff = 0.90
-            # the cutoff for the max length of the shortest paths to consider as candidate
-            # current version does not use it to filter paths
-            # it should be set to a number larger than the max of number of cells in each image/tissue/region
-            # where the max is taken across all images/tissues/regions in the dataset
-            # self.path_len_cutoff = 30000
-            # a threshold for whether two clusters in an image are qualified to
-            # have the embedding distance and physical distance between them computed
-            # in order to be qualified, each of the two clusters must has at least this number of cells in the given image
             self.n_cells_threshold = 30
 
         elif data_name in ["danenberg_2022"]:
@@ -390,7 +378,6 @@ class data_features(object):
             self.cell_type_mapping = get_Danenberg_cell_type_mapping()
             self.group_ct_mapping = get_group_ct_mapping(data_name, group_scheme, self.cell_type_mapping)
 
-            # load the list of region IDs
             df_images = pd.read_csv(os.path.join(self.data_dir, "Metabric_images_geq_1000_cells.csv"),
                                     header=0)
 
@@ -399,22 +386,12 @@ class data_features(object):
 
             self.train_images = df_images_subtype["image_fullname"].tolist()
 
-            # distance cutoff for getting edges in basic graph
             self.dist_cutoff = dist_cutoff
             self.expanded_edge_cutoff = expanded_edge_cutoff
             self.top_k = top_k
             self.ctg_comp_dist_cutoff = ctg_comp_dist_cutoff
             self.degree_limit = degree_limit
-            # path purity cutoff for telling whether the shortest path between two cells is a qualified candidate edges to add
             self.path_purity_cutoff = 0.90
-            # the cutoff for the max length of the shortest paths to consider as candidate
-            # current version does not use it to filter paths
-            # it should be set to a number larger than the max of number of cells in each image/tissue/region
-            # where the max is taken across all images/tissues/regions in the dataset
-            # self.path_len_cutoff = 30000
-            # a threshold for whether two clusters in an image are qualified to
-            # have the embedding distance and physical distance between them computed
-            # in order to be qualified, each of the two clusters must has at least this number of cells in the given image
             self.n_cells_threshold = 20
 
         elif data_name in ["mpfc_2022"]:
@@ -428,8 +405,6 @@ class data_features(object):
             self.cell_type_mapping = get_mpfc_cell_type_mapping()
             self.group_ct_mapping = get_group_ct_mapping(data_name, group_scheme, self.cell_type_mapping)
 
-            # load the list of region IDs
-
             df_images = pd.read_csv(os.path.join(self.data_dir, "image_info.csv"),
                                     header=0)
             full_subtype = ["all"]
@@ -437,22 +412,12 @@ class data_features(object):
 
             self.train_images = df_images_subtype["image_fullname"].tolist()
 
-            # distance cutoff for getting edges in basic graph
             self.dist_cutoff = dist_cutoff
             self.expanded_edge_cutoff = expanded_edge_cutoff
             self.top_k = top_k
             self.ctg_comp_dist_cutoff = ctg_comp_dist_cutoff
             self.degree_limit = degree_limit
-            # path purity cutoff for telling whether the shortest path between two cells is a qualified candidate edges to add
             self.path_purity_cutoff = 0.90
-            # the cutoff for the max length of the shortest paths to consider as candidate
-            # current version does not use it to filter paths
-            # it should be set to a number larger than the max of number of cells in each image/tissue/region
-            # where the max is taken across all images/tissues/regions in the dataset
-            # self.path_len_cutoff = 30000
-            # a threshold for whether two clusters in an image are qualified to
-            # have the embedding distance and physical distance between them computed
-            # in order to be qualified, each of the two clusters must has at least this number of cells in the given image
             self.n_cells_threshold = 10
 
         elif data_name in ["lermi_2025"]:
@@ -466,28 +431,17 @@ class data_features(object):
             self.cell_type_mapping = get_lermi_cell_type_mapping()
             self.group_ct_mapping = get_group_ct_mapping(data_name, group_scheme, self.cell_type_mapping)
 
-            # load the list of region IDs
             df_regions = pd.read_csv(os.path.join(self.data_dir, "region_list.csv"),
                                      header=0)
 
             self.train_images = df_regions["region_ID"].tolist()
 
-            # distance cutoff for getting edges in basic graph
             self.dist_cutoff = dist_cutoff
             self.expanded_edge_cutoff = expanded_edge_cutoff
             self.top_k = top_k
             self.ctg_comp_dist_cutoff = ctg_comp_dist_cutoff
             self.degree_limit = degree_limit
-            # path purity cutoff for telling whether the shortest path between two cells is a qualified candidate edges to add
             self.path_purity_cutoff = 0.90
-            # the cutoff for the max length of the shortest paths to consider as candidate
-            # current version does not use it to filter paths
-            # it should be set to a number larger than the max of number of cells in each image/tissue/region
-            # where the max is taken across all images/tissues/regions in the dataset
-            # self.path_len_cutoff = 30000
-            # a threshold for whether two clusters in an image are qualified to
-            # have the embedding distance and physical distance between them computed
-            # in order to be qualified, each of the two clusters must has at least this number of cells in the given image
             self.n_cells_threshold = 30
 
         else:

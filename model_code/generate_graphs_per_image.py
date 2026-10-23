@@ -1,22 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# prepare the graph data objects for each image in the Cords dataset
-# generate three graph objects:
-# 1. basic graph
-# 2. extended graph with two steps extension
-# 3. local graph with 1st step extension only
-
-# if using the extended graph
-# the second step of graph extension step can take long
-# it is recommended to generate the graph object separately for each image
-# and move the pyg graph objects together to another folder in later step for model training
-
-# can consider setting random seeds
-# though, even if the random seeds are set, the resulting graphs from two runs on the same image
-# can be different, due to effect of minor floating number difference on the step of ranking topk cells 
-# in 1st step graph extension
-
 import os
 import sys
 import torch
@@ -49,7 +33,6 @@ import random
 
 import gc
 
-# this line below is needed if want to import function from other python files in local directory
 sys.path.append(os.getcwd())
 
 from data_utilities import data_features, make_model_run_id
@@ -85,8 +68,6 @@ def generate_data(data_name="cords_2024",
     input_args = locals()
     print("input args are", input_args)
 
-    # Settings
-    # load random seeds generated from https://www.random.org
     if os.path.exists(data_dir+"/random_seeds.txt"):
         df_seeds = pd.read_csv(data_dir+"/random_seeds.txt", sep=" ", header=None)
         cur_random_seed = df_seeds[0].tolist()[region_index]
@@ -125,7 +106,6 @@ def generate_data(data_name="cords_2024",
     raw_data_root = data_dir+"/raw_data"
     dataset_root = prepare_dir+"/"+ cur_region_id
 
-    # Generate cellular graphs from raw inputs
     nx_graph_root = os.path.join(dataset_root, "graph")
 
     os.makedirs(nx_graph_root, exist_ok=True)
@@ -142,7 +122,6 @@ def generate_data(data_name="cords_2024",
                 neighbor_edge_cutoff=NEIGHBOR_EDGE_CUTOFF)
 
 
-    # Define Cellular Graph Dataset
     dataset_kwargs = {
         'raw_cell_info_path': raw_data_root,
         'raw_folder_name': 'graph',

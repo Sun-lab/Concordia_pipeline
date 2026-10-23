@@ -80,11 +80,8 @@ def sparse_mincut_pool(
 
     s = torch.softmax(s / temp if temp != 1.0 else s, dim=-1)
 
-    # matrix multiplication between unbatched matrices
     a_s = spmm(adj_csr.to(torch.float), s)
 
-    # row sum of sparse adjacency matrix
-    # in the format of unfolded vector
     row, col = norm_edge_index[0], norm_edge_index[1]
     idx = row
     deg = scatter(norm_edge_weight, idx, dim=0,
@@ -99,7 +96,6 @@ def sparse_mincut_pool(
         size=(deg.shape[0], deg.shape[0]),
     )
 
-    # matrix multiplication between unbatched matrices
     d_s = spmm(d_csr.to(torch.float).to(s.device), s)
 
 
@@ -110,7 +106,6 @@ def sparse_mincut_pool(
 
 
     x_batched = x_batched.unsqueeze(0) if x_batched.dim() == 2 else x_batched
-    #adj = adj.unsqueeze(0) if adj.dim() == 2 else adj
     s_batched = s_batched.unsqueeze(0) if s_batched.dim() == 2 else s_batched
     a_s_batched = a_s_batched.unsqueeze(0) if a_s_batched.dim() == 2 else a_s_batched
     d_s_batched = d_s_batched.unsqueeze(0) if d_s_batched.dim() == 2 else d_s_batched
@@ -127,14 +122,12 @@ def sparse_mincut_pool(
     out = torch.matmul(s_batched.transpose(1, 2), x_batched)
     out_adj = torch.matmul(s_batched.transpose(1, 2), a_s_batched)
 
-    # MinCut regularization.
     mincut_num = _rank3_trace(out_adj)
     mincut_den = _rank3_trace(
         torch.matmul(s_batched.transpose(1, 2), d_s_batched))
     mincut_loss = -(mincut_num / mincut_den)
     mincut_loss = torch.mean(mincut_loss)
 
-    # Orthogonality regularization.
     ss = torch.matmul(s_batched.transpose(1, 2), s_batched)
 
     i_s = torch.eye(k).type_as(ss)
@@ -146,7 +139,6 @@ def sparse_mincut_pool(
 
     EPS = 1e-15
 
-    # Fix and normalize coarsened adjacency matrix.
     ind = torch.arange(k, device=out_adj.device)
     out_adj[:, ind, ind] = 0
     d = torch.einsum('ijk->ij', out_adj)

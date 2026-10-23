@@ -45,7 +45,6 @@ output_csv = os.path.join(figure_dir, "n_connected_components_sensitivity_settin
 by_domain_csv = os.path.join(figure_dir,
                              "n_connected_components_sensitivity_settings_by_domain.csv")
 
-# the default's own counts, from the script this varies, to check against
 reference_by_domain_csv = os.path.join(
     figure_dir, "n_connected_components_rs_ensemble_scaled_direct_domains_by_domain.csv")
 
@@ -99,8 +98,6 @@ for cur_setting in settings:
         raise FileNotFoundError("missing " + cur_setting["path"] + " for " + cur_setting["tag"])
 
 
-# ---- the default dataset, graph cutoff and image list, for every setting ----
-
 model_run_id = run_id()
 
 data_dicts = data_features(data_name, graph_type,
@@ -126,8 +123,6 @@ print("images: " + str(len(train_images)) + ", raw_dir: " + raw_dir)
 print("basic graph edge cutoff: " + str(neighbor_edge_cutoff) + ", for every setting")
 print("a domain needs at least " + str(n_cells_threshold) + " cells in an image to count")
 
-
-# ---- every annotation, as one column of a table keyed by CELL_ID ----
 
 t_load = time.time()
 
@@ -161,8 +156,6 @@ print("read " + str(len(settings)) + " annotations of " + str(len(label_table)) 
       " cells in " + format(time.time() - t_load, ".0f") + " s")
 
 
-# ---- the components of every domain of every annotation, on one graph ----
-
 def count_image(region_id):
 
     cell_data = load_cell_data(raw_dir + "/" + region_id + ".csv")
@@ -192,7 +185,6 @@ def count_image(region_id):
         kept = [(int(d), int(n)) for d, n in zip(domain_values, domain_sizes)
                 if n >= n_cells_threshold]
 
-        # the graph is indexed by row position, so the cells of a domain are its rows
         for cur_domain, cur_size in kept:
 
             subgraph = G.subgraph(np.flatnonzero(labels == cur_domain).tolist())
@@ -215,8 +207,6 @@ def count_image(region_id):
 
     return image_rows, domain_rows, n_cells, t_graph, time.time() - t_count
 
-
-# ---- the timing run ----
 
 if args.time_only:
 
@@ -244,8 +234,6 @@ if args.time_only:
     test_n_cells = np.array(test_n_cells, dtype=float)
     test_total = np.array(test_graph) + np.array(test_count)
 
-    # the graph build is dominated by a dense n by n distance matrix, so the time
-    # of an image is fitted as a + b n + c n^2 and summed over every image
     design = np.stack([np.ones_like(test_n_cells), test_n_cells, test_n_cells ** 2], axis=1)
     coef, *_ = np.linalg.lstsq(design, test_total, rcond=None)
     predicted = np.stack([np.ones_like(all_n_cells), all_n_cells, all_n_cells ** 2], axis=1) @ coef
@@ -275,8 +263,6 @@ if args.time_only:
 
     sys.exit(0)
 
-
-# ---- the full run ----
 
 all_image_rows = []
 all_domain_rows = []

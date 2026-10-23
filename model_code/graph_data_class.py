@@ -1,16 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# incorporate the part of computing and saving out cell type group composition in upto2nd degree neighborhood
-
-# include three ways of building graphs:
-# basic graph
-# local graph (1st step extension only)
-# extended graph (two steps extension)
-
-# part of the code was learnt from 
-# https://gitlab.com/enable-medicine-public/space-gm
-
 import os
 import torch
 from torch_geometric.data import Dataset, Data
@@ -139,11 +129,9 @@ def construct_graph_for_region(region_id,
     cell_data = load_cell_data(cell_data_file)
     G, node_to_cell_mapping = build_graph_from_cell_coords(cell_data, neighbor_edge_cutoff)
 
-    # Assign attributes to cellular graph
     G = assign_attributes(G, cell_data, node_to_cell_mapping)
     G.region_id = region_id
 
-    # Save graph to file
     if graph_output is not None:
         with open(graph_output, 'wb') as f:
             pickle.dump(G, f)
@@ -165,8 +153,6 @@ def get_feature_names(features, group_index_mapping):
         if feat in ["cell_type_group"]:
             feat_names.append(feat)
         elif feat == "neighborhood_composition":
-            # feature "neighborhood_composition" will contain a composition vector of the immediate neighbors
-            # and one based on the 2nd degree only neigbors separately
             feat_names.extend(["ct_group_composition_1st-%s" % ctg
                                for ctg in sorted(group_index_mapping.keys(), key=lambda x: group_index_mapping[x])])
             feat_names.extend(["ct_group_composition_2nd-%s" % ctg
@@ -250,8 +236,6 @@ def process_neighbor_composition(G,
     """
 
 
-    # first, compute the cell type group composition vector based on 1st degree neighbors
-
     first_neighbors = [x for x in G.neighbors(node_ind) if x!=node_ind]
     neighbor_ctgs_1st = [ct_group_mapping[G.nodes[x]['cell_type']] for x in first_neighbors]
 
@@ -268,7 +252,6 @@ def process_neighbor_composition(G,
     else:
         composition_vec_1st = [x/len(neighbor_ctg_ids_1st) for x in neighbor_ctg_counts_1st]
 
-    # next, compute the cell type group composition vector based on 2nd degree neighbors
     first_neighbors_list = list(set(first_neighbors+[node_ind]))
     first_neighbors_list.sort()
 
@@ -323,16 +306,13 @@ def process_feature(G, feature_item, node_ind=None, **feature_kwargs):
     Returns:
         v (list): feature vector
     """
-    # Node features
     if node_ind is not None:
         if feature_item == "cell_type_group":
-            # Integer index of the cell type
             assert "ct_group_mapping" in feature_kwargs, "'ct_group_mapping' is required in the kwargs for feature item 'cell_type_group'"
             assert "group_index_mapping" in feature_kwargs, "'group_index_mapping' is required in the kwargs for feature item 'cell_type_group'"
             v = [feature_kwargs["group_index_mapping"][feature_kwargs["ct_group_mapping"][G.nodes[node_ind]["cell_type"]]]]
             return v
         elif feature_item == "neighborhood_composition":
-            # Composition vector consisting of the 1st degree neighbors and 2nd degree neighbors separately
             assert "ct_group_mapping" in feature_kwargs, "'ct_group_mapping' is required in the kwargs for feature item 'neighborhood_composition'"
             assert "group_index_mapping" in feature_kwargs, "'group_index_mapping' is required in the kwargs for feature item 'neighborhood_composition'"
             v = process_neighbor_composition(G, node_ind, **feature_kwargs)
@@ -358,7 +338,6 @@ def plot_graph(G, file_dir, file_name, group_color_mapping, ct_group_mapping):
 
     plt.clf()
     plt.figure(figsize=(10, 10))
-    # Extract basic node attributes
 
     node_coords = [G.nodes[n]['center_coord'] for n in G.nodes]
     node_coords = np.stack(node_coords, 0)
@@ -453,7 +432,6 @@ def nx_to_tg_graph(G,
         cur_data (pyg graph object): corresponding graph object
     """
 
-    # Append node and edge features to the pyg data object
     cur_data = {"x": [], "edge_index": []}
     for node_ind in G.nodes:
         feat_val = []
@@ -503,17 +481,6 @@ def nx_to_tg_graph_1st(G,
         cur_data (pyg graph object): processed pytorch geometric graph object
     """
 
-    # load basic graph
-    # load neighborhood composition information
-
-    # extend graph in only the first step
-    # make use of that the cells in the graph object and the rows in neighborhood composition have correspondance
-
-    # add edges from/to cells in neighborhood with extended radius, 
-    #   satisfy composition distance requirement, 
-    #   among the cells not being existing neighbors in basic graph, 
-    #   the topk ones with smallest composition distance to the center cell
-
     raw_num_nodes = G.number_of_nodes()
     raw_num_edges = G.number_of_edges()
 
@@ -523,7 +490,6 @@ def nx_to_tg_graph_1st(G,
 
     assert raw_num_edges==len(basic_edges)
 
-    # keep a fixed version to keep track of existing edges in basic graph
     G_fixed_first = copy.deepcopy(G)
 
     cell_data = load_cell_data(cell_data_file)
@@ -555,7 +521,6 @@ def nx_to_tg_graph_1st(G,
 
         ordered_neighbors = [candidate_neighbors[x] for x in sorted_indices if dist_list[x]<ctg_comp_dist_cutoff]
 
-        # note here should be G_fixed_first
         node_id_existing_neighbors = set([x for x in G_fixed_first.neighbors(node_id)]) 
         ordered_neighbors_kept = [x for x in ordered_neighbors if x not in node_id_existing_neighbors]    
 
@@ -568,7 +533,6 @@ def nx_to_tg_graph_1st(G,
     current_time = now.strftime("%H:%M:%S")
     print("Start adding node and edge features to the pyg data object: ", current_time)
 
-    # Append node and edge features to the pyg data object
     cur_data = {"x": [], "edge_index": []}
     for node_ind in G.nodes:
         feat_val = []
@@ -646,34 +610,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
                feature_kwargs['ct_group_mapping'])
 
 
-    # load basic graph
-    # load neighborhood composition information
-
-    # extend graph in two steps
-    # make use of that the cells in the graph object and the rows in neighborhood composition have correspondance
-
-    # add edges from/to cells in neighborhood with extended radius, 
-    #   satisfy composition distance requirement, 
-    #   among the cells not being existing neighbors in basic graph, 
-    #   the topk ones with smallest composition distance to the center cell
-    # add edges based on shortest path quality
-    #   two ends have composition distance below cutoff between them
-    #   most points on the path do not appear more than the cutoff distance away from either of the two ends
-
-    # compute the number of edges to add in order to reach desired average degree
-    # where the degree number is after excluding self-loops, undirectional
-    # suppose this number is n_edges_to_add
-    # get the total number of additional edges that are qualified to be added, undirectional
-        # they need to satisfy source and target neighborhood CTC similarity requirement
-        # they need to satisfy path purity requirement
-        # they cannot be existing edges in basic graph
-    # suppose this number is n_qualified,
-    # build a list of all unique qualified edges and corresponding path lengths
-    # compute quartiles of the path length and group the paths into four bins based on the quartiles
-    # take 10%, 20%, 30%, 40% of n_edges_to_add from each bin
-    # right now, if there are not enough edges to sample from,
-    # do not take further action to sample from neighboring bins
-
     raw_num_nodes = G.number_of_nodes()
     raw_num_edges = G.number_of_edges()
 
@@ -683,14 +619,10 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
 
     assert raw_num_edges==len(basic_edges)
 
-    # keep a fixed version to keep track of existing edges in basic graph
     G_fixed_first = copy.deepcopy(G)
 
     G_no_edge = copy.deepcopy(G)
     G_no_edge.clear_edges()
-
-    # these are for only keeping the new edges from the two steps
-    # for the purpose of generating plots
 
     G_add_first = copy.deepcopy(G_no_edge)
     G_add_second = copy.deepcopy(G_no_edge)
@@ -724,7 +656,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
 
         ordered_neighbors = [candidate_neighbors[x] for x in sorted_indices if dist_list[x]<ctg_comp_dist_cutoff]
 
-        # note here should be G_fixed_first
         node_id_existing_neighbors = set([x for x in G_fixed_first.neighbors(node_id)]) 
         ordered_neighbors_kept = [x for x in ordered_neighbors if x not in node_id_existing_neighbors]    
 
@@ -758,7 +689,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
                feature_kwargs['ct_group_mapping'])
 
     
-    # number of undirectonal edges excluding self-loops
     first_num_edges = G.number_of_edges()
     target_num_edges = G.number_of_nodes() * (degree_limit/2)
     needed_num_edges = target_num_edges - (first_num_edges-raw_num_nodes)
@@ -777,7 +707,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
         print("there are already more than enough edges. do not added edges")
         added_edge_lens = []
     else:
-        # undirectional
         candidate_edge_list = []
         candidate_edge_len_list = []
 
@@ -794,15 +723,9 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
                         col_max = np.max(dist_slice, axis=0)
                         cur_purity = np.mean(col_max < ctg_comp_dist_cutoff)
                         if cur_purity > path_purity_cutoff:
-                            # add the length of the path to the record if the edge does not exist in the graph
-                            # this way will count each edge only in one direction,
-                            # since once one direction is added, the other direction will have has_edge being true
-                            # given that the edges are non-directional
                             if not G.has_edge(i, j):
                                 candidate_edge_list += [(i, j)]
                                 candidate_edge_len_list += [len(path_ij)-1]
-
-        # bin the candidate edges into four bins
 
         np_candidate_edge_len = np.array(candidate_edge_len_list)
 
@@ -835,7 +758,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
         current_time = now.strftime("%H:%M:%S")
         print("Start adding edges: ", current_time)
 
-        # compute the number of edges needed to add
         needed_num_edges_bins = [round(0.1*needed_num_edges),
                                  round(0.2*needed_num_edges),
                                  round(0.3*needed_num_edges)]
@@ -857,8 +779,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
         current_time = now.strftime("%H:%M:%S")
         print("Start generating figures for extended graphs: ", current_time)
 
-        # generate figure for extended graph
-
         file_name=G_add_second.region_id+"_second_additional_edges"
         plot_graph(G_add_second,
                    image_figure_dir,
@@ -869,8 +789,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
         print("Start generating figures for extended graphs: ", current_time)
-
-        # generate figure for extended graph
 
         file_name=G.region_id+"_second_extended_graph"
         plot_graph(G,
@@ -883,7 +801,6 @@ def nx_to_tg_graph_shortest_path_expand_degree_limit(G,
     current_time = now.strftime("%H:%M:%S")
     print("Start adding node and edge features to the pyg data object: ", current_time)
 
-    # Append node and edge features to the pyg data object
     cur_data = {"x": [], "edge_index": []}
     for node_ind in G.nodes:
         feat_val = []
@@ -1022,7 +939,6 @@ class CellularGraphDataset(Dataset):
         
         self.group_index_mapping = group_index_mapping
 
-        # Node features
         self.node_features = node_features
 
         if "cell_type_group" in self.node_features:
@@ -1031,7 +947,6 @@ class CellularGraphDataset(Dataset):
         self.node_feature_names = get_feature_names(node_features,
                                                     group_index_mapping=self.group_index_mapping)
 
-        # Prepare kwargs for hold dictionaries for dealing with features
         self.feature_kwargs = {}
         self.feature_kwargs['cell_type_mapping'] = self.cell_type_mapping
         self.feature_kwargs['group_ct_mapping'] = self.group_ct_mapping
@@ -1039,17 +954,13 @@ class CellularGraphDataset(Dataset):
         self.feature_kwargs['group_color_mapping'] = self.group_color_mapping
         self.feature_kwargs['group_index_mapping'] = self.group_index_mapping
 
-        # Note this command below calls the `process` function
         super(CellularGraphDataset, self).__init__(root, None, pre_transform)
 
-        # Transformations, e.g. masking features, adding graph-level labels
         self.transform = transform
 
-        # Cache for graphs
         self.cached_data = {}
 
         self.N = len(self.processed_paths)
-        # get the region ids for all graphs in the dataset, by loading the pyg data objects and getting the region_id attribute
         self.region_ids = [self.get_full(idx).region_id for idx in range(self.N)]
 
 
@@ -1091,7 +1002,6 @@ class CellularGraphDataset(Dataset):
 
     @property
     def processed_file_names(self):
-        # Only files for full graphs
         return sorted([f for f in os.listdir(self.processed_dir) if f.endswith('.gpt')])
 
     def len(self):
@@ -1108,12 +1018,10 @@ class CellularGraphDataset(Dataset):
                 print("up to 2nd degree composition files exist or not?")
                 print(os.path.exists(os.path.join(self.upto2nd_degree_composition_dir, '%s.csv' % region_id)))
                 if not os.path.exists(os.path.join(self.upto2nd_degree_composition_dir, '%s.csv' % region_id)):
-                    # get the numpy array of up to 2nd degree neighbor composition to use for building extended graphs
-                    # also save out the up to 2nd degree neighbor composition files out for each image
                     np_upto2nd, df_upto2nd = nx_to_upto2nd_degree_ct_group_composition(G,
                                                                                     **self.feature_kwargs)
 
-                    assert df_upto2nd.shape[1] == len(self.group_ct_mapping)  # make sure feature dimension matches
+                    assert df_upto2nd.shape[1] == len(self.group_ct_mapping)
 
                     df_upto2nd.to_csv(os.path.join(self.upto2nd_degree_composition_dir, '%s.csv' % region_id),
                                                                 index=False)
@@ -1125,22 +1033,20 @@ class CellularGraphDataset(Dataset):
                 print("basic graph exist or not?")
                 print(os.path.exists(os.path.join(self.processed_basic_dir, '%s.gpt' % region_id)))
                 if not os.path.exists(os.path.join(self.processed_basic_dir, '%s.gpt' % region_id)):
-                    # Transform networkx graphs to pyg data objects, and add features for nodes and edges
                     graph_data = nx_to_tg_graph(G,
                                                 node_features=self.node_features,
                                                 **self.feature_kwargs)
 
-                    assert graph_data.region_id == region_id  # graph identifier
+                    assert graph_data.region_id == region_id
                     print(graph_data.x.shape)
                     print(len(self.node_feature_names))
-                    assert graph_data.x.shape[1] == len(self.node_feature_names)  # make sure feature dimension matches
+                    assert graph_data.x.shape[1] == len(self.node_feature_names)
 
                     torch.save(graph_data, os.path.join(self.processed_basic_dir, '%s.gpt' % graph_data.region_id))
 
                 print("extended graph exist or not?")
                 print(os.path.exists(os.path.join(self.processed_dir, '%s.gpt' % region_id)))
                 if not os.path.exists(os.path.join(self.processed_dir, '%s.gpt' % region_id)):
-                    # Transform networkx graphs to pyg data objects, and add features for nodes and edges
                     graph_data, raw_num_nodes, raw_num_edges, first_num_edges, final_num_edges, counter_added_lens = \
                         nx_to_tg_graph_shortest_path_expand_degree_limit(G,
                                                                     cell_data_file=os.path.join(self.raw_cell_info_path, '%s.csv' % region_id),
@@ -1154,10 +1060,10 @@ class CellularGraphDataset(Dataset):
                                                                     path_purity_cutoff=self.path_purity_cutoff,
                                                                     **self.feature_kwargs)
                     
-                    assert graph_data.region_id == region_id  # graph identifier
+                    assert graph_data.region_id == region_id
                     print(graph_data.x.shape)
                     print(len(self.node_feature_names))
-                    assert graph_data.x.shape[1] == len(self.node_feature_names)  # make sure feature dimension matches
+                    assert graph_data.x.shape[1] == len(self.node_feature_names)
 
                     torch.save(graph_data, os.path.join(self.processed_dir, '%s.gpt' % graph_data.region_id))
 
@@ -1184,12 +1090,9 @@ class CellularGraphDataset(Dataset):
                 print("1st extended only graph exist or not?")
                 print(os.path.exists(os.path.join(self.processed_1st_dir, '%s.gpt' % region_id)))
                 if not os.path.exists(os.path.join(self.processed_1st_dir, '%s.gpt' % region_id)):
-                    # delete and reload the graph to remove the edges added in the second step
                     del G
                     G = pickle.load(open(raw_path, 'rb'))
                     region_id = G.region_id
-                    # generate graph object based on 1st extension
-                    # transform networkx graphs to pyg data objects and add features for nodes and edges
                     graph_1st_only = nx_to_tg_graph_1st(G,
                                                     cell_data_file=os.path.join(self.raw_cell_info_path, '%s.csv' % region_id),
                                                     np_comp=np_upto2nd, 
@@ -1198,24 +1101,22 @@ class CellularGraphDataset(Dataset):
                                                     ctg_comp_dist_cutoff=self.ctg_comp_dist_cutoff,
                                                     node_features=self.node_features,
                                                     **self.feature_kwargs)
-                    assert graph_1st_only.region_id == region_id  # graph identifier
+                    assert graph_1st_only.region_id == region_id
                     print(graph_1st_only.x.shape)
                     print(len(self.node_feature_names))
                     assert graph_1st_only.x.shape[1] == len(self.node_feature_names)
                     torch.save(graph_1st_only, os.path.join(self.processed_1st_dir, '%s.gpt' % graph_1st_only.region_id))
-                    # delete and reload the graph to remove the edges added in the first step
                     del G
 
         return
 
-    def __getitem__(self, i): # i is the relative index within a dataset or a subset
+    def __getitem__(self, i):
         """Sample a graph from the dataset and apply transformations"""
         if (isinstance(i, (int, np.integer))
             or (isinstance(i, Tensor) and i.dim() == 0)
             or (isinstance(i, np.ndarray) and np.isscalar(i))):
 
             data = self.get(self.indices()[i])
-            # Apply transformations
             for transform_fn in self.transform:
                 data = transform_fn(data)
             return data
@@ -1228,8 +1129,6 @@ class CellularGraphDataset(Dataset):
 
     def get_full(self, idx):
         """Read the full cellular graph of region `idx`"""
-        # note that here we assign the image label again at this step
-        # to allow the flexibility in assigning labels
         if idx in self.cached_data:
             return self.cached_data[idx]
         else:

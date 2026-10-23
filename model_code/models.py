@@ -40,9 +40,6 @@ class GCN_model(torch.nn.Module):
             else:
                 self.conv1 = GCNConv(64, 64)
 
-        # for the case of adding skip connection right after the first convolution
-        # only the version for two graph convolution layers is prepared
-
         if self.n_gcns > 1:
             if self.gcn_type == "gat":
                 self.conv2 = GATConv(64, 16, 4)

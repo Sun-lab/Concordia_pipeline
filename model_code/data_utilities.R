@@ -1,16 +1,6 @@
-# a function providing a list of information for each dataset
-# data_name
-
-
-# group_scheme is LAST on purpose. Every caller of this function passes its
-# arguments positionally, as data_features(data_name, model_run_id, data_dir),
-# so a new parameter inserted before those two would silently re-bind them:
-# model_run_id would arrive as group_scheme and data_dir as model_run_id.
-# A new argument therefore goes on the end, or every call site changes with it.
 data_features <- function(data_name, model_run_id=NULL, data_dir=NULL,
                           group_scheme="default"){
   
-  # Lung cancer dataset
   if (data_name%in%c("cords_2024", "Cords_data_permutate", "Cords_data_permutate5pct")){
     
     cell_types = c('Bcell',
@@ -137,10 +127,6 @@ data_features <- function(data_name, model_run_id=NULL, data_dir=NULL,
     }
     
     n_cells_threshold = 30
-    # the number of images threshold for deciding for each pair of clusters
-    # whether to aggregate the distances across images
-    # only aggregate if there are at least n_images_threshold images with 
-    # at least n_cells_threshold in each of the two clusters
     n_images_threshold = 30
   }else if(data_name=="danenberg_2022"){
     
@@ -238,10 +224,6 @@ data_features <- function(data_name, model_run_id=NULL, data_dir=NULL,
     }
     
     n_cells_threshold = 20
-    # the number of images threshold for deciding for each pair of clusters
-    # whether to aggregate the distances across images
-    # only aggregate if there are at least n_images_threshold images with 
-    # at least n_cells_threshold in each of the two clusters
     n_images_threshold = 10
     
   }else if(data_name%in%c("mpfc_2022")){
@@ -250,11 +232,6 @@ data_features <- function(data_name, model_run_id=NULL, data_dir=NULL,
                    "eL5-3", "Reln", "VIP", "eL2/3", "NPY", 
                    "eL5-2", "Lhx6", "L5-1", "SST", "eL6-1")
     
-    # the same check the cords branch makes, and for the same reason: without it
-    # an unrecognised scheme leaves group_ct_mapping the empty list it was
-    # initialised to and the function returns successfully with no mapping at all.
-    # Only "default" exists here, one group per cell type; "group8" is a grouping
-    # of the Cords cell types and has no meaning for this data
     stopifnot(group_scheme %in% c("default"))
     
     group_ct_mapping = list()
@@ -282,10 +259,6 @@ data_features <- function(data_name, model_run_id=NULL, data_dir=NULL,
     }
     
     n_cells_threshold = 10
-    # the number of images threshold for deciding for each pair of clusters
-    # whether to aggregate the distances across images
-    # only aggregate if there are at least n_images_threshold images with 
-    # at least n_cells_threshold in each of the two clusters
     n_images_threshold = 1
   
   }

@@ -1,0 +1,117 @@
+
+R version 4.4.0 (2024-04-24) -- "Puppy Cup"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(data.table)
+> 
+> # one row per Cox model of overall survival on the patient-level tumor-domain
+> # share, for the three ways of combining a patient's images into that share:
+> # simple average, cell-weighted average and lmer BLUP
+> 
+> table_dir = "../revision_tables"
+> if (!dir.exists(table_dir)){
++   dir.create(table_dir, recursive = TRUE)
++ }
+> 
+> table_file = file.path(table_dir, "domain_share_OS_cox_strata_age65_three_aggregations.csv")
+> 
+> figure_root = "../revision_figures"
+> 
+> aggregation_list = list(
++   list(label = "simple average",
++        dir = "figure3_domain_share_OS_and_cox_zph_three_methods_strata_age65"),
++   list(label = "cell-weighted average",
++        dir = "figure3_domain_share_OS_and_cox_zph_three_methods_strata_age65_cell_weighted"),
++   list(label = "lmer BLUP",
++        dir = "figure3_domain_share_OS_and_cox_zph_three_methods_strata_age65_lmer_blup")
++ )
+> 
+> method_levels = c("Concordia-Basic", "Concordia", "K-means")
+> 
+> needed_columns = c("setting", "n_patients_used", "n_events_used", "hazard_ratio",
++                    "hazard_ratio_lower95", "hazard_ratio_upper95", "pvalue",
++                    "zph_global_pvalue")
+> 
+> table_rows = list()
+> 
+> for (aggregation in aggregation_list){
++ 
++   pvalue_csv = file.path(figure_root, aggregation$dir, "pvalues.csv")
++ 
++   if (!file.exists(pvalue_csv)){
++     stop("missing ", pvalue_csv)
++   }
++ 
++   df_cur = fread(pvalue_csv)
++ 
++   missing_columns = setdiff(needed_columns, names(df_cur))
++   if (length(missing_columns) > 0){
++     stop("missing columns in ", pvalue_csv, ": ", paste(missing_columns, collapse = ", "))
++   }
++ 
++   stopifnot(setequal(df_cur$setting, method_levels))
++   stopifnot(!any(duplicated(df_cur$setting)))
++ 
++   table_rows[[length(table_rows) + 1]] = df_cur[, .(
++     method = setting,
++     aggregation = aggregation$label,
++     pvalue, hazard_ratio, hazard_ratio_lower95, hazard_ratio_upper95,
++     n_patients_used, n_events_used, zph_global_pvalue)]
++ }
+> 
+> df_table = rbindlist(table_rows)
+> 
+> df_table = df_table[order(match(method, method_levels),
++                           match(aggregation, sapply(aggregation_list, function(x) x$label)))]
+> 
+> format_pvalue <- function(x){
++   formatC(signif(x, 3), format = "g")
++ }
+> 
+> df_out = df_table[, .(
++   "method" = method,
++   "patient-level share" = aggregation,
++   "p-value" = format_pvalue(pvalue),
++   "hazard ratio" = sprintf("%.3f", hazard_ratio),
++   "95% CI lower" = sprintf("%.3f", hazard_ratio_lower95),
++   "95% CI upper" = sprintf("%.3f", hazard_ratio_upper95),
++   "n patients" = n_patients_used,
++   "n events" = n_events_used,
++   "proportional hazards test p-value" = format_pvalue(zph_global_pvalue))]
+> 
+> fwrite(df_out, table_file)
+> 
+> options(width = 200)
+> print(df_out, row.names = FALSE)
+          method   patient-level share p-value hazard ratio 95% CI lower 95% CI upper n patients n events proportional hazards test p-value
+          <char>                <char>  <char>       <char>       <char>       <char>      <int>    <int>                            <char>
+ Concordia-Basic        simple average 0.00335        0.503        0.318        0.796        685      466                             0.133
+ Concordia-Basic cell-weighted average 0.00446        0.515        0.326        0.814        685      466                             0.123
+ Concordia-Basic             lmer BLUP 0.00468        0.235        0.086        0.641        685      466                            0.0284
+       Concordia        simple average 0.00347        0.501        0.315        0.796        632      433                             0.425
+       Concordia cell-weighted average 0.00356        0.504        0.318        0.799        632      433                             0.421
+       Concordia             lmer BLUP 0.00732        0.167        0.045        0.617        632      433                             0.182
+         K-means        simple average   0.465        0.806        0.453        1.436        515      342                             0.924
+         K-means cell-weighted average   0.498        0.820        0.461        1.456        515      342                             0.927
+         K-means             lmer BLUP   0.632        0.549        0.047        6.394        515      342                             0.946
+> 
+> cat("\nsaved ", table_file, "\n", sep = "")
+
+saved ../revision_tables/domain_share_OS_cox_strata_age65_three_aggregations.csv
+> 
+> proc.time()
+   user  system elapsed 
+  0.255   0.242   0.661 
